@@ -9,7 +9,8 @@ And it's really fast. I can now run my test suite with full debug logs.
 It doesn't have all the features of libc's standard version. But it has
 all the typical features required for logging. See sprintf.cpp for details
 on what works and what doesn't. Should you need additional features, just
-point Claude to this repository and ask it to add whatever feature you need.
+point the AI of your choice to this repository and ask it to add whatever
+feature you need.
 
 If you do create a variant of this sprintf with more/different features,
 please take the time to make a pull request to contribute it to this
