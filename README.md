@@ -24,3 +24,9 @@ vsnprintf() are export "C". So you can link sprintf.o as a drop-in
 replacement for libc's versions, including with programs written in plain C.
 
 sprintf.cpp has no library dependencies and does not allocate dynamic memory.
+
+# Why C++ ? Why GCC ? #
+
+I didn't want Claude to lose optimization opportunities by being forced into
+a reduced feature set. So I told it to use C++ and GCC features if needed.
+
